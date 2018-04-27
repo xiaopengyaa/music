@@ -15,7 +15,7 @@ export function getRecommend() {
 }
 
 export function getDiscList() {
-  const url = debug ? '/api/getDiscList' : 'http://www.jiajiamusic.com/music/api/getDiscList'
+  const url = debug ? '/api/getDiscList' : 'http://www.jiajiapig.com/music/api/getDiscList'
   // const url = '/api/getDiscList'
   const data = Object.assign({}, commonParams, {
     hostUin: 0,
@@ -35,7 +35,7 @@ export function getDiscList() {
 }
 
 export function getSongList(disstid) {
-  const url = debug ? '/api/getSongList' : 'http://www.jiajiamusic.com/music/api/getSongList'
+  const url = debug ? '/api/getSongList' : 'http://www.jiajiapig.com/music/api/getSongList'
   // const url = '/api/getSongList'
   const data = Object.assign({}, commonParams, {
     type: 1,
